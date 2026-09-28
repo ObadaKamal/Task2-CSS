@@ -176,3 +176,108 @@ padding:27px 0;
 }
 
 
+/* category style */
+.categories{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+.categorys{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 88.07px;
+}
+.category{
+    width: calc( ( 100% -  264.21px ) / 4 );
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+.cat-logo{
+    width: 100px;
+    height: 90px;
+    padding: 33px 27px;
+    align-items: center;   
+    border-radius: 4px;
+}
+
+.design{
+    background-color:rgb(73, 187, 189, 0.3) ;
+}
+.development{
+    background-color:rgb(91, 114, 238, 0.3) ;
+}
+.development-two{
+    background-color:rgb(157, 204, 255, 0.3);
+}
+
+.business{
+    background-color:rgb(130, 252, 225, 0.3);
+}
+.marketing{
+    background-color: rgb(255, 206, 142, 0.3);
+}
+.photography{
+  background-color: rgba(238, 100, 91, 0.3);
+}
+
+.acting{
+    background-color: rgb(37, 38, 65, 0.3);
+}
+.category img{
+    width:33px;
+    height: 35px;
+    
+}
+
+/* Media Screens for category */
+ 
+
+@media screen and (max-width:600px) {
+.container{
+        width: calc(100% - 60px);
+    }
+       .category{
+    width: 100% ;
+    }
+    .category p{
+        width: 70%;
+        margin: auto;
+        }
+
+
+}
+
+
+ 
+@media screen and (min-width:601px) and (max-width:798px) {
+ .container{
+        width: calc(100% - 100px);
+    }
+    .category{
+    width: calc( ( 100% -  88.07px ) / 2 );
+    }
+   
+}
+
+@media screen and (min-width:799px) and (max-width:1155px) {
+   .container{
+        width: calc(100% - 160px);
+    }
+    .category{
+    width: calc( ( 100% -  176.14px ) / 3 );
+    }
+   
+}
+
+
