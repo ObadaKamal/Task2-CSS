@@ -472,3 +472,54 @@ padding:27px 0;
 
 
 
+/* footer style */
+.footer{
+    margin-top: 90px;
+    background-color: #252641;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap:96px;
+}
+
+.column-line{
+    height: 90px;
+    border: 1px solid #626381;
+}
+.logo-footer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:76px;
+    gap: 80px;
+}
+.footer-logo img{
+    width: 121px;
+    height: 83px;
+}
+.virtual h3{
+    width: 166px;
+    height:66px;
+    font-size: 22px;
+    color:#fff;
+}
+.subscribe-footer{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sub{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21.5px;
+}
+#email{
+    width:425px;
+    height:60px;
+    background-color: transparent;
+    border-radius:35% ;
+}
