@@ -75,15 +75,15 @@ padding:27px 0;
 
 .hero{
     background-color: rgb(157, 204, 255, 0.2);
-    
     padding: 50px;
-    
+   
 }
 .desc{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .desc-end h4{
@@ -281,3 +281,113 @@ padding:27px 0;
 }
 
 
+/* Recommended style */
+
+.recommended{
+     background-color: rgb(157, 204, 255, 0.2);
+     padding: 122px 102px;
+     margin-top: 95px;
+}
+
+.desc-recommended{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.desc-recommend h4{
+    color: #49BBBD;
+    
+    align-self: flex-end;
+}
+.recommendes{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.recomm{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: calc( ( 100% - 150px ) / 4 );   
+    gap: 15px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+.info img{
+    width: 24px;
+    height: 24px;
+}
+.info span{
+    font-size: 14px;
+}
+.designe, .est-time{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.lesson-end{    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-price{
+    color: #49BBBD;
+    font-weight: 700;
+}
+.old-price{
+    text-decoration: line-through;
+    color: #000;
+}
+@media screen and (max-width:600px) {
+.container{
+        width: calc(100% - 60px);
+    }
+    .recomm{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:854px) {
+    .recomm{
+        width: 100%;
+    }
+       .container{
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (min-width:855px) and (max-width:1113px) {
+    .recomm{
+        width: calc( ( 100% - 50px ) / 2 );
+    }
+       .container{
+        width: calc(100% - 160px);
+    }
+}
+@media screen and (min-width:1114px) and (max-width:1455px) {
+    .recomm{
+        width: calc( ( 100% - 100px ) / 3 );
+    }
+       .container{
+        width: calc(100% - 160px);
+    }
+}
