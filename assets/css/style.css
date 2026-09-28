@@ -517,9 +517,39 @@ padding:27px 0;
     flex-wrap: wrap;
     gap: 21.5px;
 }
+
+.sub p{
+    color: #B2B3CF;
+    font-size: 26px;
+
+}
 #email{
     width:425px;
     height:60px;
     background-color: transparent;
-    border-radius:35% ;
+    
+}
+::placeholder{
+    color: #83839A;
+    padding-left: 30px;
+}
+.rights-footer{
+    color: #B2B3CF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+}
+
+.terms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    align-items: center;
+}
+
+.terms .column-line {
+    height: 17px;
 }
