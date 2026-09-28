@@ -1,0 +1,73 @@
+/* Header Style*/
+.header{
+padding:27px 0;
+}
+
+.header .row{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.profile{
+   display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center; 
+}
+.profile img{
+    width: 63px;
+    height: 63px;
+}
+
+.menu {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+/* Media Screens for header */
+
+@media screen and (max-width:600px) {
+    .menu {
+    display: block;
+    }
+    .nav{
+        display:none
+    }
+    .container{
+        width: calc(100% - 60px);
+    }
+    
+}
+
+
+ 
+@media screen and (min-width:601px) and (max-width:768px) {
+    .menu {
+    display: block;
+    }
+    .nav{
+        display:none
+    }
+    .container{
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1135px) {
+    .menu {
+    display: block;
+    }
+    .nav{
+        display:none
+    }
+    .container{
+        width: calc(100% - 160px);
+    }
+}
