@@ -202,6 +202,7 @@ padding:27px 0;
     border: 1px solid white;
     border-radius: 10px;
     
+    
 }
 .cat-logo{
     width: 100px;
@@ -285,7 +286,7 @@ padding:27px 0;
 
 .recommended{
      background-color: rgb(157, 204, 255, 0.2);
-     padding: 122px 102px;
+     padding: 102px 70px;
      margin-top: 95px;
 }
 
@@ -317,9 +318,11 @@ padding:27px 0;
     background-color: #fff;
     border: 1px solid #fff;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px;
     width: calc( ( 100% - 150px ) / 4 );   
     gap: 15px;
+    
+
 }
 .info{
     display: flex;
@@ -391,3 +394,81 @@ padding:27px 0;
         width: calc(100% - 160px);
     }
 }
+
+
+/* Choices style */
+.choices{
+    
+     margin-top: 95px;
+}
+.choices .row{
+    flex-direction: column;
+    gap: 47px;
+}
+.choices-desc{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.desc-choice{
+    align-self: flex-end;
+    color:#49BBBD;
+}
+.choices-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 54px;
+}
+.choice-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:flex-start ;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: calc( ( 100% - 162px ) / 4 );   
+    gap: 15px;
+
+}
+
+@media screen and (max-width:600px) {
+.container{
+        width: calc(100% - 60px);
+    }
+    .choice-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:854px) {
+    .choice-card{
+        width: 100%;
+    }
+       .container{
+        width: calc(100% - 100px);
+    }
+}
+
+@media screen and (min-width:855px) and (max-width:1113px) {
+    .choice-card{
+        width: calc( ( 100% - 54px ) / 2 );
+    }
+       .container{
+        width: calc(100% - 160px);
+    }
+}
+@media screen and (min-width:1114px) and (max-width:1455px) {
+    .choice-card{
+        width: calc( ( 100% - 108px ) / 3 );
+    }
+       .container{
+        width: calc(100% - 160px);
+    }
+}
+
+
+
+
+
